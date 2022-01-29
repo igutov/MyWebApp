@@ -13,4 +13,8 @@ abstract class Animal {
         this.name = name;
         this.year = year;
     }
+
+    protected void getNameAndYear () {
+        System.out.println(name + " " + year);
+    }
 }
